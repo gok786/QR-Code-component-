@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.qr-code {
+  width: 32rem;
+  height: 49.9rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  text-align: center;
+  margin: 65px auto;
+}
+
+.qr-code__image {
+  width: 28.6rem;
+  height: 29rem;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.qr-card__title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+  line-height: 1.2;
+}
+
+.qr-card__description {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
+
+.qr-card__description a {
+  color: hsl(228, 45%, 44%);
+}
